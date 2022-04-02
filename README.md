@@ -1,1 +1,1 @@
-Simple file end message encryptor with AES256
+Simple file end text encryptor with AES256

@@ -22,7 +22,7 @@
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    cursor: help;
+    cursor: pointer;
 }
 
 /* Add a color to the active/current link */

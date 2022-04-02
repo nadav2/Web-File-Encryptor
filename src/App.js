@@ -86,12 +86,13 @@ export default function App(){
     }, [current, editText, fileName])
 
     useEffect(() => {
-        console.log(isMobile())
         if (isMobile.isMobile()){
             setEditText(<textarea style={{fontSize: "15px"}}  id={"textarea"} rows={7} cols={36} name="description" defaultValue={""} />)
 
             setToastLocation("top-left")
         }
+
+        document.title = "File And Text Encryption"
 
     }, [])
 
@@ -367,8 +368,6 @@ export default function App(){
         </div>
 
     )
-
-
 
 
 
